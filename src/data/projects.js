@@ -6,8 +6,18 @@ import coco_campeao from "../assets/projects/5.coco_campeao.png";
 import nu_kenzie from "../assets/projects/6.nu_kenzie.png";
 import portfy from "../assets/projects/7.portfy.png";
 import kenkie_hub from "../assets/projects/8.kenkie_hub.png";
+import food from "../assets/projects/9.food.png";
 
 export const projects = [
+  {
+    id: 9,
+    nome: "Food",
+    img: food,
+    tipo: "Escolar",
+    descrição: "Cardápio de Lanchonete, Crud, consumo de API.",
+    git: "https://github.com/Wilrrama/Food_devPoint",
+    deploy: "https://github.com/Wilrrama/Food_devPoint",
+  },
   {
     id: 8,
     nome: "Kenzie Hub",
@@ -25,7 +35,7 @@ export const projects = [
     descrição:
       "Cria um portifolio on-line, com CRUD e consumo de API, postagem de projetos.",
     git: "https://github.com/mariosilva81/m3-g5-portify",
-    deploy: "https://m3-g5-portify.vercel.app/",
+    deploy: "https://portify-indol.vercel.app",
   },
   {
     id: 6,

@@ -6,7 +6,7 @@ const Tecnologie = () => {
     <>
       <StyledTecnologies>
         <div>
-          <h4 id="tecnologias">Tecnologogias</h4>
+          <h4 id="tecnologias">Tecnologias</h4>
         </div>
         <ul>
           {tegnologies.map((tegnologie) => (
