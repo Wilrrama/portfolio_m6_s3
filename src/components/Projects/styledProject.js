@@ -64,4 +64,16 @@ export const StyledProjects = styled.ul`
       }
     }
   }
+
+  .project_tech_container {
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .project_tech_img {
+    width: 30px;
+    height: 30px;
+  }
 `;

@@ -31,6 +31,16 @@ const Projects = () => {
                   <GrDeploy />
                 </a>
               </div>
+              <div className="project_tech_container">
+                {project.tech.map((tech, index) => (
+                  <img
+                    key={index}
+                    className="project_tech_img"
+                    src={tech}
+                    alt={`imagem da tecnologia utilizada neste projeto - ${index}`}
+                  />
+                ))}
+              </div>
             </div>
           </li>
         ))}

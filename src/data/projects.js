@@ -7,6 +7,9 @@ import nu_kenzie from "../assets/projects/6.nu_kenzie.png";
 import portfy from "../assets/projects/7.portfy.png";
 import kenkie_hub from "../assets/projects/8.kenkie_hub.png";
 import food from "../assets/projects/9.food.png";
+import react from "../assets/tecnologies/react2.png";
+import typescript from "../assets/tecnologies/typeScript.png";
+import nodejs from "../assets/tecnologies/nodejs.png";
 
 export const projects = [
   {
@@ -17,6 +20,7 @@ export const projects = [
     descrição: "Cardápio de Lanchonete, Crud, consumo de API.",
     git: "https://github.com/Wilrrama/Food_devPoint",
     deploy: "https://github.com/Wilrrama/Food_devPoint",
+    tech: [react, nodejs],
   },
   {
     id: 8,
@@ -26,6 +30,7 @@ export const projects = [
     descrição: "Cadastro dos habilidades, Crud, consumo de API.",
     git: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub_Wilson",
     deploy: "https://react-entrega-kenzie-hub-wilson.vercel.app/dashboard",
+    tech: [react],
   },
   {
     id: 7,
@@ -36,6 +41,7 @@ export const projects = [
       "Cria um portifolio on-line, com CRUD e consumo de API, postagem de projetos.",
     git: "https://github.com/mariosilva81/m3-g5-portify",
     deploy: "https://portify-indol.vercel.app",
+    tech: [react, typescript],
   },
   {
     id: 6,
@@ -45,6 +51,7 @@ export const projects = [
     descrição: "Aplicação para a entrada e saida de valores.",
     git: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie_Wilson",
     deploy: "https://react-entrega-s1-template-nu-kenzie-wilson.vercel.app/",
+    tech: [react],
   },
   {
     id: 5,
@@ -55,6 +62,7 @@ export const projects = [
       "Aplicação para a equipe campeã da Copa dos Campeões 2023, organizada pela Liga Hortolandense ",
     git: "https://github.com/Wilrrama/coco_campeao_2023",
     deploy: "https://unidos-do-coco.vercel.app/",
+    tech: [react],
   },
   {
     id: 4,
@@ -65,6 +73,7 @@ export const projects = [
       "Aplicação para meu barbeiro de confiança, divulgando seu Serviçoes e Produtos. E marcando presença na Web",
     git: "https://github.com/Wilrrama/blackStyllusLeandro",
     deploy: "https://blackstyllus.vercel.app/",
+    tech: [react],
   },
   {
     id: 3,
@@ -75,6 +84,7 @@ export const projects = [
       "Gerenciador de Lista de Participantes e Itens, de uma partida de futebol. Agora com venda de material Esportivo: Bolas",
     git: "https://github.com/Wilrrama/Boleiros-Liga",
     deploy: "https://boleiros-liga.vercel.app/",
+    tech: [react],
   },
   {
     id: 2,
@@ -84,6 +94,7 @@ export const projects = [
     descrição: "Aplicação com pregações salvas pelo Whatzapp",
     git: "https://github.com/Wilrrama/Peregrino",
     deploy: "https://peregrino.vercel.app/",
+    tech: [react],
   },
   {
     id: 1,
@@ -94,5 +105,6 @@ export const projects = [
       "Gerenciador de Lista de Participantes de uma partida de futebol",
     git: "https://github.com/Wilrrama/lista-boleiros",
     deploy: "https://lista-boleiros.vercel.app",
+    tech: [react],
   },
 ];
