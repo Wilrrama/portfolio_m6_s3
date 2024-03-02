@@ -47,6 +47,7 @@ const About = () => {
 
         <StyledSkills>
           <h4>Desenvolvedor Full Stack Jr</h4>
+
           <div>
             <p>
               Possuo formação técnica em hardware e atualmente estou em

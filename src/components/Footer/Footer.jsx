@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <StyledFooter>
         <div>
-          <h3>Wilson</h3>
+          <h3>Wilson Franchi</h3>
           <h4>
             <a href="mailto:wilrrama@hotmail.com">wilrrama@hotmail.com</a>
           </h4>

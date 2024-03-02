@@ -7,11 +7,24 @@ import nu_kenzie from "../assets/projects/6.nu_kenzie.png";
 import portfy from "../assets/projects/7.portfy.png";
 import kenkie_hub from "../assets/projects/8.kenkie_hub.png";
 import food from "../assets/projects/9.food.png";
+import talktome from "../assets/projects/10.talktome.png";
 import react from "../assets/tecnologies/react2.png";
 import typescript from "../assets/tecnologies/typeScript.png";
 import nodejs from "../assets/tecnologies/nodejs.png";
+import nextjs from "../assets/tecnologies/nextjs.png";
+import tailwind from "../assets/tecnologies/tailwind.jpeg";
 
 export const projects = [
+  {
+    id: 10,
+    nome: "Talk to me",
+    img: talktome,
+    tipo: "Escolar",
+    descrição: "Aplicativo de Video-Conferencia.",
+    git: "https://github.com/Wilrrama/talk_to_me_hero_code",
+    deploy: "https://github.com/Wilrrama/talk_to_me_hero_code",
+    tech: [nodejs, typescript, nextjs, tailwind],
+  },
   {
     id: 9,
     nome: "Food",

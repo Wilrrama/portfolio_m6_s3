@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledNav = styled.header`
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 18px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -17,7 +17,7 @@ export const StyledNav = styled.header`
 
   div {
     display: flex;
-    gap: 10px;
+    gap: 25px;
 
     button {
       background: none;
