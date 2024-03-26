@@ -63,6 +63,7 @@ export const StyledSkills = styled.div`
   div {
     p {
       max-width: 70%;
+      text-align: justify;
     }
   }
 

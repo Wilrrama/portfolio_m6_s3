@@ -7,6 +7,7 @@ import react from "../assets/tecnologies/react2.png";
 import js from "../assets/tecnologies/js.png";
 import css from "../assets/tecnologies/css.png";
 import typeScript from "../assets/tecnologies/typeScript.png";
+import postgresql from "../assets/tecnologies/postgresql.png";
 
 export const tegnologies = [
   {
@@ -53,5 +54,10 @@ export const tegnologies = [
     id: 9,
     img: typeScript,
     nome: "TypeScript",
+  },
+  {
+    id: 10,
+    img: postgresql,
+    nome: "PostgreSql",
   },
 ];

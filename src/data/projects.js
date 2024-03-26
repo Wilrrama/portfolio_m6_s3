@@ -8,6 +8,7 @@ import portfy from "../assets/projects/7.portfy.png";
 import kenkie_hub from "../assets/projects/8.kenkie_hub.png";
 import food from "../assets/projects/9.food.png";
 import talktome from "../assets/projects/10.talktome.png";
+import rosalia from "../assets/projects/11.rosalia.jpeg";
 import react from "../assets/tecnologies/react2.png";
 import typescript from "../assets/tecnologies/typeScript.png";
 import nodejs from "../assets/tecnologies/nodejs.png";
@@ -15,6 +16,16 @@ import nextjs from "../assets/tecnologies/nextjs.png";
 import tailwind from "../assets/tecnologies/tailwind.jpeg";
 
 export const projects = [
+  {
+    id: 11,
+    nome: "Rosália F. C.",
+    img: rosalia,
+    tipo: "Freelance",
+    descrição: "Aplicação para a equipe campeão da Copa Euro 2024",
+    git: "https://github.com/Wilrrama/rosalia_fc",
+    deploy: "https://rosaliafc.vercel.app/",
+    tech: [react],
+  },
   {
     id: 10,
     nome: "Talk to me",
