@@ -7,6 +7,37 @@ export const StyledProjectsTitle = styled.div`
   padding: 10px;
 `;
 
+export const StyledProjectsNav = styled.nav`
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+
+  button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #45a049;
+    }
+
+    &:focus {
+      outline: none;
+      background-color: #3e8e41;
+    }
+  }
+`;
+
 export const StyledProjects = styled.ul`
   display: flex;
   flex-wrap: wrap;

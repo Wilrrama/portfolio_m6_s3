@@ -50,10 +50,8 @@ const About = () => {
 
           <div>
             <p>
-              Possuo formação técnica em hardware e atualmente estou em
-              transição de carreira para Desenvolvimento Full Stack Júnior.
-              Desde a infância, nutro uma paixão pela tecnologia. Minha
-              inspiração está em criar programas inovadores que possam impactar
+              Desenvolvedor Full Stack em ascensão, com sólida formação em
+              hardware e paixão por criar soluções inovadoras que impactam
               positivamente a vida das pessoas.
             </p>
           </div>

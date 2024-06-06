@@ -1,16 +1,39 @@
 import { projects } from "../../data/projects";
-import { StyledProjects, StyledProjectsTitle } from "./styledProject";
+import {
+  StyledProjects,
+  StyledProjectsTitle,
+  StyledProjectsNav,
+} from "./styledProject";
 import { GrDeploy } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa";
+import { useState } from "react";
 
 const Projects = () => {
+  const [filteredProjects, setFilteredProjects] = useState(projects);
+
+  const filterProjects = (type) => {
+    if (type === "Todos") {
+      setFilteredProjects(projects);
+    } else {
+      setFilteredProjects(projects.filter((project) => project.tipo === type));
+    }
+  };
+
   return (
     <>
       <StyledProjectsTitle>
         <h4>Principais Projetos</h4>
       </StyledProjectsTitle>
+
+      <StyledProjectsNav>
+        <button onClick={() => filterProjects("Todos")}>Todos</button>
+        <button onClick={() => filterProjects("FullStack")}>FullStack</button>
+        <button onClick={() => filterProjects("Front-End")}>Front-End</button>
+        <button onClick={() => filterProjects("Back-End")}>Back-End</button>
+      </StyledProjectsNav>
+
       <StyledProjects>
-        {projects.map((project) => (
+        {filteredProjects.map((project) => (
           <li key={project.id} id="projetos">
             <div>
               <h4 className="project__title">{project.nome}</h4>

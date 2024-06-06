@@ -9,6 +9,7 @@ import kenkie_hub from "../assets/projects/8.kenkie_hub.png";
 import food from "../assets/projects/9.food.png";
 import talktome from "../assets/projects/10.talktome.png";
 import rosalia from "../assets/projects/11.rosalia.jpeg";
+import liberdade from "../assets/projects/12.liberdade.jpg";
 import react from "../assets/tecnologies/react2.png";
 import typescript from "../assets/tecnologies/typeScript.png";
 import nodejs from "../assets/tecnologies/nodejs.png";
@@ -17,10 +18,20 @@ import tailwind from "../assets/tecnologies/tailwind.jpeg";
 
 export const projects = [
   {
+    id: 12,
+    nome: "Liberdade",
+    img: liberdade,
+    tipo: "Front-End",
+    descrição: "Aplicação para a equipe campeão da Copa Amizade 2024",
+    git: "https://github.com/Wilrrama/liberdade",
+    deploy: "https://liberdade.vercel.app/",
+    tech: [react],
+  },
+  {
     id: 11,
     nome: "Rosália F. C.",
     img: rosalia,
-    tipo: "Freelance",
+    tipo: "Front-End",
     descrição: "Aplicação para a equipe campeão da Copa Euro 2024",
     git: "https://github.com/Wilrrama/rosalia_fc",
     deploy: "https://rosaliafc.vercel.app/",
@@ -30,7 +41,7 @@ export const projects = [
     id: 10,
     nome: "Talk to me",
     img: talktome,
-    tipo: "Escolar",
+    tipo: "FullStack",
     descrição: "Aplicativo de Video-Conferencia.",
     git: "https://github.com/Wilrrama/talk_to_me_hero_code",
     deploy: "https://github.com/Wilrrama/talk_to_me_hero_code",
@@ -40,7 +51,7 @@ export const projects = [
     id: 9,
     nome: "Food",
     img: food,
-    tipo: "Escolar",
+    tipo: "FullStack",
     descrição: "Cardápio de Lanchonete, Crud, consumo de API.",
     git: "https://github.com/Wilrrama/Food_devPoint",
     deploy: "https://github.com/Wilrrama/Food_devPoint",
@@ -50,7 +61,7 @@ export const projects = [
     id: 8,
     nome: "Kenzie Hub",
     img: kenkie_hub,
-    tipo: "Escolar",
+    tipo: "Front-End",
     descrição: "Cadastro dos habilidades, Crud, consumo de API.",
     git: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub_Wilson",
     deploy: "https://react-entrega-kenzie-hub-wilson.vercel.app/dashboard",
@@ -60,7 +71,7 @@ export const projects = [
     id: 7,
     nome: "Portfy",
     img: portfy,
-    tipo: "Escolar",
+    tipo: "Front-End",
     descrição:
       "Cria um portifolio on-line, com CRUD e consumo de API, postagem de projetos.",
     git: "https://github.com/mariosilva81/m3-g5-portify",
@@ -71,7 +82,7 @@ export const projects = [
     id: 6,
     nome: "Nu Kenzie",
     img: nu_kenzie,
-    tipo: "Escolar",
+    tipo: "Front-End",
     descrição: "Aplicação para a entrada e saida de valores.",
     git: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie_Wilson",
     deploy: "https://react-entrega-s1-template-nu-kenzie-wilson.vercel.app/",
@@ -81,7 +92,7 @@ export const projects = [
     id: 5,
     nome: "Unidos do Coco",
     img: coco_campeao,
-    tipo: "Freelance",
+    tipo: "Front-End",
     descrição:
       "Aplicação para a equipe campeã da Copa dos Campeões 2023, organizada pela Liga Hortolandense ",
     git: "https://github.com/Wilrrama/coco_campeao_2023",
@@ -92,7 +103,7 @@ export const projects = [
     id: 4,
     nome: "Black Styllus Barber",
     img: leandro_barber,
-    tipo: "Freelance",
+    tipo: "Front-End",
     descrição:
       "Aplicação para meu barbeiro de confiança, divulgando seu Serviçoes e Produtos. E marcando presença na Web",
     git: "https://github.com/Wilrrama/blackStyllusLeandro",
@@ -103,7 +114,7 @@ export const projects = [
     id: 3,
     nome: "Boleiros Liga",
     img: boleiros_liga,
-    tipo: "Freelance",
+    tipo: "Front-End",
     descrição:
       "Gerenciador de Lista de Participantes e Itens, de uma partida de futebol. Agora com venda de material Esportivo: Bolas",
     git: "https://github.com/Wilrrama/Boleiros-Liga",
@@ -114,7 +125,7 @@ export const projects = [
     id: 2,
     nome: "O Peregrino",
     img: peregrino,
-    tipo: "Pessoal",
+    tipo: "Front-End",
     descrição: "Aplicação com pregações salvas pelo Whatzapp",
     git: "https://github.com/Wilrrama/Peregrino",
     deploy: "https://peregrino.vercel.app/",
@@ -124,7 +135,7 @@ export const projects = [
     id: 1,
     nome: "Lista de Boleiros",
     img: boleiros,
-    tipo: "Freelance",
+    tipo: "Front-End",
     descrição:
       "Gerenciador de Lista de Participantes de uma partida de futebol",
     git: "https://github.com/Wilrrama/lista-boleiros",
