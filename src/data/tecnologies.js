@@ -8,6 +8,10 @@ import js from "../assets/tecnologies/js.png";
 import css from "../assets/tecnologies/css.png";
 import typeScript from "../assets/tecnologies/typeScript.png";
 import postgresql from "../assets/tecnologies/postgresql.png";
+import git from "../assets/tecnologies/git.png";
+import sql from "../assets/tecnologies/sql.png";
+import django from "../assets/tecnologies/django.png";
+import tailwind from "../assets/tecnologies/tailwind.png";
 
 export const tegnologies = [
   {
@@ -59,5 +63,25 @@ export const tegnologies = [
     id: 10,
     img: postgresql,
     nome: "PostgreSql",
+  },
+  {
+    id: 11,
+    img: git,
+    nome: "Git",
+  },
+  {
+    id: 12,
+    img: tailwind,
+    nome: "Tailwind",
+  },
+  {
+    id: 13,
+    img: django,
+    nome: "Django",
+  },
+  {
+    id: 14,
+    img: sql,
+    nome: "SQL",
   },
 ];

@@ -14,9 +14,43 @@ import react from "../assets/tecnologies/react2.png";
 import typescript from "../assets/tecnologies/typeScript.png";
 import nodejs from "../assets/tecnologies/nodejs.png";
 import nextjs from "../assets/tecnologies/nextjs.png";
-import tailwind from "../assets/tecnologies/tailwind.jpeg";
+import tailwind from "../assets/tecnologies/tailwind.png";
+import lista_contatos from "../assets/projects/13.Lista_contatos.png";
+import peregrinho2 from "../assets/projects/14.peregrinho2.png";
+import toDo_JackExperts from "../assets/projects/15.ToDo_JackExperts.jpeg";
 
 export const projects = [
+  {
+    id: 15,
+    nome: "To Do List",
+    img: toDo_JackExperts,
+    tipo: "FullStack",
+    descrição: "Desafio Jack Experts",
+    git: "https://github.com/Wilrrama/Desafio_ToDoList",
+    deploy: "https://github.com/Wilrrama/Desafio_ToDoList",
+    tech: [react, , nodejs, typescript],
+  },
+  {
+    id: 14,
+    nome: "Peregrino 2",
+    img: peregrinho2,
+    tipo: "Front-End",
+    descrição: "Aplicação com pregações salvas pelo Whatzapp ver 2024",
+    git: "https://github.com/Wilrrama/peregrino2",
+    deploy: "https://peregrino2.vercel.app/",
+    tech: [react, typescript],
+  },
+  {
+    id: 13,
+    nome: "Lista de contatos",
+    img: lista_contatos,
+    tipo: "FullStack",
+    descrição: "Aplicação full-stack lista de contatos",
+    git: "https://github.com/Kenzie-Academy-Brasil-Developers/m6_Projeto_FullStack",
+    deploy:
+      "https://github.com/Kenzie-Academy-Brasil-Developers/m6_Projeto_FullStack",
+    tech: [react, , nodejs, typescript],
+  },
   {
     id: 12,
     nome: "Liberdade",
